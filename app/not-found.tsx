@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: '404 Notehub',
     description:
       "Looks like you've reached a dead end. Let's get you back to your notes.",
-    url: 'https://08-zustand-zeta-one.vercel.app/404',
+    url: 'https://08-zustand-ten-eosin.vercel.app/404',
     images: [
       {
         url: 'https://seocom.agency/wp-content/uploads/2024/05/Errores-Web-404-403-503-502-401.-Significado-y-soluciones-1.jpg.webp',

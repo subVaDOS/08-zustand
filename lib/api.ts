@@ -65,6 +65,10 @@ export type Category = {
 };
 
 export const getCategories = async () => {
-  const res = await axios<Category[]>('/categories');
+  const res = await axios<Category[]>(`${baseUrl}/categories`, {
+    headers: {
+      Authorization: `Bearer ${myKey}`,
+    },
+  });
   return res.data;
 };
